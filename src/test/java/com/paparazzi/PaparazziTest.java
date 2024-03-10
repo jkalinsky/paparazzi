@@ -1,13 +1,13 @@
-package com.example;
+package com.paparazzi;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class PaparazziTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(PaparazziPlugin.class);
 		RuneLite.main(args);
 	}
 }
